@@ -43,8 +43,6 @@ try:
 except URLError as e:
   streamlit.error()
 
-# dont run anything while we troubleshoot
-streamlit.stop()
 
 streamlit.header("The fruilt load list contains:")
 # snowflake related functions
